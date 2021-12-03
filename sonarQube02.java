@@ -1,7 +1,6 @@
-public class sonarQube02 {
-
-    String printNumbers(String stringToAdd, int x, int y) {
-        return String.format("Numbers are %s %d %d", stringToAdd, x, y);
-    }
-
+package main;
+public class SonarQube04 {
+    private int x = 0;
+    int getX() { return x;}
+    void setX(int val){ this.x = val; }
 }
