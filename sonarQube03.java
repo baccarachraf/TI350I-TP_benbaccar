@@ -3,7 +3,7 @@ public class sonarQube03 {
         int accumulator = start;
         boolean success = true;
         while(success){
-            accumulator = accumulator + start;
+            accumulator =false;
         }
         return accumulator;
     }
